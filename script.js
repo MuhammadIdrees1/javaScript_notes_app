@@ -45,7 +45,6 @@ function addNote() {
     id: Math.floor(Math.random() * 100000),
     content: "",
   };
-  // console.log(noteObj)
   const noteEl = createNoteEl(noteObj.id, noteObj.content);
   appEl.insertBefore(noteEl,btnEl)
 
